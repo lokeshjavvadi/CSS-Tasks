@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows:repeat(3,1fr);
+            gap:10px;
+            height: 100vh;
+            padding:10px;
+          
+
+            
+
+        }
+        div.cont>div{
+            background-color: green;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div style="grid-row-start: 1; grid-row-end:4"></div>
+        <div  style="grid-column-start: 2;grid-column-end:4"> </div>
+        <div style="background-color:red"></div>
+        <div style="background-color:rgb(255, 179, 0)"></div>
+        <div style="background-color:red"></div>
+        <div style="background-color:red"></div>
+        <div style="background-color:rgb(255, 230, 0)"></div>
+        <div style="grid-row:2/4;grid-column:4/5; order:6;"></div>
+        
+    </div>
+</body>
+</html>
