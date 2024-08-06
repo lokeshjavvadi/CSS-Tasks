@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        @media screen and (min-width:600px) {
+            .cont{
+                display: flex;
+                gap: 10px;
+            }  
+            .home{
+                display:flex;
+                background-color: black;
+                color:white;
+                font-size: larger;
+               padding: 20px;
+               gap:20px;
+               
+                justify-content:space-around;
+            }
+            .a{
+                display: none;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .home{
+                display: none;
+            }
+         
+        }
+        .i{
+            width:100%;
+        }
+        .a{
+            display:none;
+        }
+        .lines:hover+.a{
+            display:block;
+
+        }
+        
+        .nav{
+            position: sticky;
+            top:0;
+            display: flex;
+            background-color: black;
+            justify-content: space-between;
+            padding:0;
+            width:100%;
+            
+        }
+        .lines{
+            height:60px;
+            padding:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div><img class="lines" src="https://cdn-icons-png.flaticon.com/128/10110/10110130.png" width="" height="">
+        <div class="a" style="background-color:pink;width:100%;position:absolute;padding:20%"><div style="color: rgb(68, 0, 255);"> <a href="#home">Home</a></div><br>
+                        <div style="color:rgb(60, 0, 255);"><a href="#about">About</a></div>
+    </div>
+    </div>
+       
+        <div style="padding-top: 10px;"><img src="https://pngfre.com/wp-content/uploads/hanuman-41-768x752.png" width="50"></div>
+        <div class="home"><div><a href="#home">Home</a></div><div><a href="#about">About</a></div></div>
+    </div>
+<div style="text-align: center;font-size:larger;background-color:rgb(255, 0, 0);color:aliceblue;padding:10px;" id="home">Home </div>
+<div><img src="https://www.pinkvilla.com/english/images/2023/03/397388852_image_1600*900.jpg" alt="" width="100%"></div>
+
+
+
+
+
+<div style="text-align: center;font-size:larger;background-color:rgb(255, 0, 0);color:aliceblue;padding:10px;" id="about">About </div>
+<hr>
+    <div class="cont">
+    <div>
+        <img class="i" src="https://e.telugurajyam.com/wp-content/uploads/2020/11/pawan-4.jpg" alt="no">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum qui, ducimus consectetur soluta error quo nisi provident. Tempore consequuntur adipisci impedit suscipit dolorem molestias beatae incidunt dicta non corporis!</div>
+    </div>
+    <div>
+        <img class="i" src="http://1.bp.blogspot.com/-4i36HTuS8Gs/U_Y5bCSQugI/AAAAAAACXS4/x12wc0e4O20/s1600/Megastar%2Bchiranjeevi.jpeg" alt="no">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, molestias deleniti repudiandae exercitationem similique maxime eum commodi assumenda consequuntur earum maiores, officiis sed, autem ipsam corporis iste! Libero, tempora sunt.</div>
+    </div>
+    <div>
+        <img class="i" src="https://bigstarbio.com/wp-content/uploads/2020/03/nagababuofficial_75553978_2955966804427937_3781706362376932884_n.jpg" alt="no">
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, exercitationem repellendus? Nulla quod soluta fugit voluptatibus, modi molestiae omnis. Autem impedit maiores deleniti dolor debitis a totam cum nisi molestias.</div>
+    </div>
+    <div>
+        <img class="i" src="https://wallpapercave.com/wp/wp3993996.jpg" alt="no">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam molestiae neque ad ea, praesentium nam exercitationem accusantium nulla enim officiis veniam sunt distinctio vero harum voluptas sequi illum eveniet delectus?</div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="cont">
+        <div>
+            <img class="i" src="https://i2.wp.com/godofindia.com/wp-content/uploads/2017/05/allu-arjun-22.jpg" alt="no">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum qui, ducimus consectetur soluta error quo nisi provident. Tempore consequuntur adipisci impedit suscipit dolorem molestias beatae incidunt dicta non corporis!</div>
+        </div>
+        <div>
+            <img class="i" src="https://i2.wp.com/www.newsbugz.com/wp-content/uploads/2018/07/Sai-Dharam-Tej-Images-8-e1532755157590.jpg?fit=1024%2C905&ssl=1" alt="no">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, molestias deleniti repudiandae exercitationem similique maxime eum commodi assumenda consequuntur earum maiores, officiis sed, autem ipsam corporis iste! Libero, tempora sunt.</div>
+        </div>
+        <div>
+            <img class="i" src="https://cdn.telugu.gulte.com/wp-content/uploads/2020/08/Varun-Tej.jpg" alt="no">
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, exercitationem repellendus? Nulla quod soluta fugit voluptatibus, modi molestiae omnis. Autem impedit maiores deleniti dolor debitis a totam cum nisi molestias.</div>
+        </div>
+        <div>
+            <img class="i" src=https://images.tv9telugu.com/wp-content/uploads/2024/06/akira-nandan-details.jpg alt="no">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam molestiae neque ad ea, praesentium nam exercitationem accusantium nulla enim officiis veniam sunt distinctio vero harum voluptas sequi illum eveniet delectus?</div>
+        </div>
+        </div>
+
+
+        
+</body>
+</html>
