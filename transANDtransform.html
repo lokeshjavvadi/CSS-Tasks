@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            margin: 0%;
+           
+        }
+
+        .a{
+            
+            background-image:url("https://wallpapercave.com/wp/wp5718375.jpg") ;
+            height:100vh;
+            background-size: cover;
+           
+
+        }
+        .b{
+            padding: 50px;
+            display: grid;
+            grid-template-columns: auto auto;
+            padding-top:80px;
+            gap:20px;
+        }
+        .b button{
+            color:red;
+            border:green solid  2px;
+            text-align: center;
+            background-color: greenyellow;
+            font-size: 30px;
+            border-radius: 20px;
+            padding:40px;
+
+          
+           
+        }
+        .spin{
+          padding-top: 30px;
+          position: relative;
+          left:25vw;
+        }
+
+        .b>.t:hover ~ div{
+            transform: Translate(200px,200px);
+        }
+        .b>.r:hover ~ div{
+            transform: rotate(9000deg);
+            
+        }
+        .b>.sk:hover ~ div{
+            transform: skew(100deg);
+        }
+        .b>.sc:hover ~ div{
+            transform: Scale(2,2);
+        }
+ 
+
+
+        div{
+            transition: 4s;
+        }
+        .b>.t:hover{
+            color: greenyellow;
+            background-color: red;
+        }
+        .b>.r:hover {
+            color: greenyellow;
+            background-color: red;
+            
+        }
+        .b>.sk:hover {
+            color: greenyellow;
+            background-color: red;
+        }
+        .b>.sc:hover {
+            color: greenyellow;
+            background-color: red;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="a">
+    
+    <div class="b">
+      
+        <button class="r">Rotate</button>
+        <button class="t">Translate</button>
+        <button class="sk">Skew</button>
+        <button class="sc"> Scale</button>
+    
+    
+        <div class="spin"><center><img src="https://purepng.com/public/uploads/large/spinner-com.png" width="300" ></center></div>
+    </div>
+
+</div>
+</body>
+</html>
