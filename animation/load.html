@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+           border:10px red solid;
+           background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg");
+           background-size: cover;
+           background-position: center;
+           
+           height:100vh;
+           display: flex;
+           justify-content: center;
+           gap: 10px;
+        }
+
+        .main div{
+            top:70vh;
+            position: relative;
+            width:15vw;
+            height:15vw;
+          
+            border-radius:50%;
+            
+
+        }
+        .a{
+            animation-name: aa;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            background-color: rgb(255, 47, 47);
+          
+
+        }
+
+        @keyframes aa {
+            0%{
+                top:70vh;
+            }
+            100%{
+                top:40vh;
+            }
+            
+        }
+
+
+
+
+        .b{
+            animation-name: bb;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 0.2s;
+            background-color: greenyellow;
+        }
+
+        @keyframes bb {
+            0%{
+                top:70vh;
+            }
+            100%{
+                top:40vh;
+            }
+            
+        }
+
+
+
+
+        .c{
+            animation-name: cc;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 0.4s;
+
+            background-color: rgb(47, 50, 255);
+
+        }
+
+        @keyframes cc {
+            0%{
+                top:70vh;
+            }
+            100%{
+                top:40vh;
+            }
+            
+        }
+        
+
+
+
+
+        .d{
+            animation-name: dd;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 0.6s;
+
+            background-color: rgb(255, 241, 47);
+
+        }
+
+        @keyframes dd {
+            0%{
+                top:70vh;
+            }
+            100%{
+                top:40vh;
+            }
+            
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+</body>
+</html>
